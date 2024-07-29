@@ -1,0 +1,830 @@
+[
+  {
+    "aircraft_type": "Boeing 737",
+    "dep_date": "2024-07-01",
+    "dep_time": "08:30",
+    "origincode": "LAX",
+    "arrival_date": "2024-07-01",
+    "arrival_time": "12:15",
+    "destination_code": "JFK",
+    "duration": "4h 45m",
+    "availability": {
+      "economy": {
+        "total_seats": 150,
+        "seats_booked": 75,
+        "seats_left": 75
+      },
+      "business": {
+        "total_seats": 20,
+        "seats_booked": 10,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Airbus A320",
+    "dep_date": "2024-07-01",
+    "dep_time": "16:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-07-01",
+    "arrival_time": "22:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 180,
+        "seats_booked": 150,
+        "seats_left": 30
+      },
+      "business": {
+        "total_seats": 15,
+        "seats_booked": 8,
+        "seats_left": 7
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-07-02",
+    "dep_time": "09:00",
+    "origincode": "ORD",
+    "arrival_date": "2024-07-02",
+    "arrival_time": "12:00",
+    "destination_code": "MIA",
+    "duration": "3h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 130,
+        "seats_left": 40
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 12,
+        "seats_left": 6
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Boeing 757",
+    "dep_date": "2024-07-02",
+    "dep_time": "14:30",
+    "origincode": "MIA",
+    "arrival_date": "2024-07-02",
+    "arrival_time": "17:45",
+    "destination_code": "JFK",
+    "duration": "3h 15m",
+    "availability": {
+      "economy": {
+        "total_seats": 190,
+        "seats_booked": 140,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 22,
+        "seats_booked": 15,
+        "seats_left": 7
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 777",
+    "dep_date": "2024-07-03",
+    "dep_time": "12:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-07-03",
+    "arrival_time": "20:00",
+    "destination_code": "LHR",
+    "duration": "8h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 300,
+        "seats_booked": 220,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 40,
+        "seats_booked": 25,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Parked"
+  },
+  {
+    "aircraft_type": "Airbus A350",
+    "dep_date": "2024-07-03",
+    "dep_time": "21:00",
+    "origincode": "LHR",
+    "arrival_date": "2024-07-04",
+    "arrival_time": "06:00",
+    "destination_code": "HKG",
+    "duration": "11h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 230,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 20,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A380",
+    "dep_date": "2024-07-04",
+    "dep_time": "10:00",
+    "origincode": "JFK",
+    "arrival_date": "2024-07-04",
+    "arrival_time": "17:45",
+    "destination_code": "CDG",
+    "duration": "7h 45m",
+    "availability": {
+      "economy": {
+        "total_seats": 500,
+        "seats_booked": 400,
+        "seats_left": 100
+      },
+      "business": {
+        "total_seats": 60,
+        "seats_booked": 30,
+        "seats_left": 30
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Boeing 787",
+    "dep_date": "2024-07-04",
+    "dep_time": "18:30",
+    "origincode": "CDG",
+    "arrival_date": "2024-07-04",
+    "arrival_time": "22:00",
+    "destination_code": "SFO",
+    "duration": "11h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 250,
+        "seats_booked": 200,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 30,
+        "seats_booked": 18,
+        "seats_left": 12
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 767",
+    "dep_date": "2024-07-05",
+    "dep_time": "07:00",
+    "origincode": "HKG",
+    "arrival_date": "2024-07-05",
+    "arrival_time": "10:45",
+    "destination_code": "SYD",
+    "duration": "9h 45m",
+    "availability": {
+      "economy": {
+        "total_seats": 200,
+        "seats_booked": 150,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 25,
+        "seats_booked": 15,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Parked"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-07-05",
+    "dep_time": "13:30",
+    "origincode": "SYD",
+    "arrival_date": "2024-07-05",
+    "arrival_time": "16:00",
+    "destination_code": "AKL",
+    "duration": "3h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 120,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 10,
+        "seats_left": 8
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A380",
+    "dep_date": "2024-07-06",
+    "dep_time": "09:00",
+    "origincode": "AKL",
+    "arrival_date": "2024-07-06",
+    "arrival_time": "14:00",
+    "destination_code": "MIA",
+    "duration": "7h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 500,
+        "seats_booked": 300,
+        "seats_left": 200
+      },
+      "business": {
+        "total_seats": 60,
+        "seats_booked": 30,
+        "seats_left": 30
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 787",
+    "dep_date": "2024-07-06",
+    "dep_time": "18:00",
+    "origincode": "MIA",
+    "arrival_date": "2024-07-07",
+    "arrival_time": "23:30",
+    "destination_code": "LHR",
+    "duration": "9h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 200,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 20,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Parked"
+  },
+  {
+    "aircraft_type": "Airbus A350",
+    "dep_date": "2024-07-07",
+    "dep_time": "08:00",
+    "origincode": "LHR",
+    "arrival_date": "2024-07-07",
+    "arrival_time": "12:30",
+    "destination_code": "JFK",
+    "duration": "8h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 200,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 25,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Boeing 757",
+    "dep_date": "2024-07-07",
+    "dep_time": "17:00",
+    "origincode": "JFK",
+    "arrival_date": "2024-07-07",
+    "arrival_time": "21:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 190,
+        "seats_booked": 150,
+        "seats_left": 40
+      },
+      "business": {
+        "total_seats": 22,
+        "seats_booked": 12,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 737",
+    "dep_date": "2024-07-08",
+    "dep_time": "09:00",
+    "origincode": "LAX",
+    "arrival_date": "2024-07-08",
+    "arrival_time": "13:00",
+    "destination_code": "SFO",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 150,
+        "seats_booked": 90,
+        "seats_left": 60
+      },
+      "business": {
+        "total_seats": 20,
+        "seats_booked": 5,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A320",
+    "dep_date": "2024-07-08",
+    "dep_time": "18:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-07-08",
+    "arrival_time": "22:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 180,
+        "seats_booked": 110,
+        "seats_left": 70
+      },
+      "business": {
+        "total_seats": 15,
+        "seats_booked": 10,
+        "seats_left": 5
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-07-08",
+    "dep_time": "21:00",
+    "origincode": "LAX",
+    "arrival_date": "2024-07-09",
+    "arrival_time": "05:00",
+    "destination_code": "MIA",
+    "duration": "6h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 60,
+        "seats_left": 110
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 5,
+        "seats_left": 13
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Boeing 757",
+    "dep_date": "2024-07-08",
+    "dep_time": "23:00",
+    "origincode": "MIA",
+    "arrival_date": "2024-07-09",
+    "arrival_time": "06:00",
+    "destination_code": "JFK",
+    "duration": "7h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 190,
+        "seats_booked": 100,
+        "seats_left": 90
+      },
+      "business": {
+        "total_seats": 22,
+        "seats_booked": 8,
+        "seats_left": 14
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A320",
+    "dep_date": "2024-07-09",
+    "dep_time": "15:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-07-09",
+    "arrival_time": "22:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 180,
+        "seats_booked": 120,
+        "seats_left": 60
+      },
+      "business": {
+        "total_seats": 15,
+        "seats_booked": 10,
+        "seats_left": 5
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-07-09",
+    "dep_time": "21:00",
+    "origincode": "ORD",
+    "arrival_date": "2024-07-10",
+    "arrival_time": "01:30",
+    "destination_code": "MIA",
+    "duration": "3h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 80,
+        "seats_left": 90
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 6,
+        "seats_left": 12
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Boeing 757",
+    "dep_date": "2024-07-10",
+    "dep_time": "14:00",
+    "origincode": "MIA",
+    "arrival_date": "2024-07-10",
+    "arrival_time": "17:15",
+    "destination_code": "JFK",
+    "duration": "3h 15m",
+    "availability": {
+      "economy": {
+        "total_seats": 190,
+        "seats_booked": 130,
+        "seats_left": 60
+      },
+      "business": {
+        "total_seats": 22,
+        "seats_booked": 5,
+        "seats_left": 17
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Boeing 777",
+    "dep_date": "2024-07-11",
+    "dep_time": "11:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-07-11",
+    "arrival_time": "19:00",
+    "destination_code": "LHR",
+    "duration": "8h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 300,
+        "seats_booked": 220,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 40,
+        "seats_booked": 25,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A350",
+    "dep_date": "2024-07-12",
+    "dep_time": "21:00",
+    "origincode": "LHR",
+    "arrival_date": "2024-07-13",
+    "arrival_time": "12:00",
+    "destination_code": "HKG",
+    "duration": "11h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 250,
+        "seats_left": 30
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 20,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A380",
+    "dep_date": "2024-07-13",
+    "dep_time": "10:00",
+    "origincode": "JFK",
+    "arrival_date": "2024-07-13",
+    "arrival_time": "17:00",
+    "destination_code": "CDG",
+    "duration": "7h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 500,
+        "seats_booked": 400,
+        "seats_left": 100
+      },
+      "business": {
+        "total_seats": 60,
+        "seats_booked": 25,
+        "seats_left": 35
+      }
+    },
+    "flight_status": "Parked"
+  },
+  {
+    "aircraft_type": "Boeing 787",
+    "dep_date": "2024-07-14",
+    "dep_time": "15:00",
+    "origincode": "CDG",
+    "arrival_date": "2024-07-14",
+    "arrival_time": "20:00",
+    "destination_code": "SFO",
+    "duration": "11h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 250,
+        "seats_booked": 200,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 30,
+        "seats_booked": 20,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 767",
+    "dep_date": "2024-07-15",
+    "dep_time": "09:00",
+    "origincode": "HKG",
+    "arrival_date": "2024-07-15",
+    "arrival_time": "16:00",
+    "destination_code": "SYD",
+    "duration": "9h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 200,
+        "seats_booked": 150,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 25,
+        "seats_booked": 20,
+        "seats_left": 5
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-07-16",
+    "dep_time": "13:00",
+    "origincode": "SYD",
+    "arrival_date": "2024-07-16",
+    "arrival_time": "17:00",
+    "destination_code": "AKL",
+    "duration": "3h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 120,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 10,
+        "seats_left": 8
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Airbus A350",
+    "dep_date": "2024-08-01",
+    "dep_time": "20:00",
+    "origincode": "LHR",
+    "arrival_date": "2024-08-01",
+    "arrival_time": "23:00",
+    "destination_code": "JFK",
+    "duration": "8h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 200,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 20,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-08-01",
+    "dep_time": "13:00",
+    "origincode": "SYD",
+    "arrival_date": "2024-08-01",
+    "arrival_time": "17:00",
+    "destination_code": "AKL",
+    "duration": "3h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 120,
+        "seats_left": 50
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 10,
+        "seats_left": 8
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Boeing 787",
+    "dep_date": "2024-08-02",
+    "dep_time": "12:00",
+    "origincode": "JFK",
+    "arrival_date": "2024-08-02",
+    "arrival_time": "20:00",
+    "destination_code": "LHR",
+    "duration": "7h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 250,
+        "seats_booked": 180,
+        "seats_left": 70
+      },
+      "business": {
+        "total_seats": 30,
+        "seats_booked": 15,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 737",
+    "dep_date": "2024-08-03",
+    "dep_time": "07:00",
+    "origincode": "LAX",
+    "arrival_date": "2024-08-03",
+    "arrival_time": "11:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 150,
+        "seats_booked": 110,
+        "seats_left": 40
+      },
+      "business": {
+        "total_seats": 20,
+        "seats_booked": 10,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A320",
+    "dep_date": "2024-08-03",
+    "dep_time": "16:00",
+    "origincode": "SFO",
+    "arrival_date": "2024-08-03",
+    "arrival_time": "22:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 180,
+        "seats_booked": 150,
+        "seats_left": 30
+      },
+      "business": {
+        "total_seats": 15,
+        "seats_booked": 8,
+        "seats_left": 7
+      }
+    },
+    "flight_status": "Cancelled"
+  },
+  {
+    "aircraft_type": "Airbus A350",
+    "dep_date": "2024-08-04",
+    "dep_time": "18:00",
+    "origincode": "LHR",
+    "arrival_date": "2024-08-04",
+    "arrival_time": "22:00",
+    "destination_code": "JFK",
+    "duration": "8h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 180,
+        "seats_left": 100
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 15,
+        "seats_left": 20
+      }
+    },
+    "flight_status": "Parked"
+  },
+  {
+    "aircraft_type": "Boeing 757",
+    "dep_date": "2024-08-05",
+    "dep_time": "07:00",
+    "origincode": "JFK",
+    "arrival_date": "2024-08-05",
+    "arrival_time": "11:00",
+    "destination_code": "ORD",
+    "duration": "4h 0m",
+    "availability": {
+      "economy": {
+        "total_seats": 190,
+        "seats_booked": 150,
+        "seats_left": 40
+      },
+      "business": {
+        "total_seats": 22,
+        "seats_booked": 12,
+        "seats_left": 10
+      }
+    },
+    "flight_status": "Ready for Departure"
+  },
+  {
+    "aircraft_type": "Airbus A321",
+    "dep_date": "2024-08-06",
+    "dep_time": "11:00",
+    "origincode": "ORD",
+    "arrival_date": "2024-08-06",
+    "arrival_time": "14:30",
+    "destination_code": "MIA",
+    "duration": "3h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 170,
+        "seats_booked": 130,
+        "seats_left": 40
+      },
+      "business": {
+        "total_seats": 18,
+        "seats_booked": 12,
+        "seats_left": 6
+      }
+    },
+    "flight_status": "Enroute"
+  },
+  {
+    "aircraft_type": "Boeing 787",
+    "dep_date": "2024-08-07",
+    "dep_time": "20:00",
+    "origincode": "MIA",
+    "arrival_date": "2024-08-08",
+    "arrival_time": "07:30",
+    "destination_code": "LHR",
+    "duration": "11h 30m",
+    "availability": {
+      "economy": {
+        "total_seats": 280,
+        "seats_booked": 200,
+        "seats_left": 80
+      },
+      "business": {
+        "total_seats": 35,
+        "seats_booked": 20,
+        "seats_left": 15
+      }
+    },
+    "flight_status": "Enroute"
+  }
+]

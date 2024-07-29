@@ -1,0 +1,91 @@
+[
+  {
+    "this_month": [
+      {
+        "origin": "Dallas",
+        "origincode": "DFW",
+        "destination": "Beijing",
+        "destinationcode": "PEK",
+        "number_of_bookings": 130
+      },
+      {
+        "origin": "Denver",
+        "origincode": "DEN",
+        "destination": "Toronto",
+        "destinationcode": "YYZ",
+        "number_of_bookings": 120
+      },
+      {
+        "origin": "Chicago",
+        "origincode": "ORD",
+        "destination": "Paris",
+        "destinationcode": "CDG",
+        "number_of_bookings": 1400
+      },
+      {
+        "origin": "Miami",
+        "origincode": "MIA",
+        "destination": "Madrid",
+        "destinationcode": "MAD",
+        "number_of_bookings": 1000
+      },
+      {
+        "origin": "Seattle",
+        "origincode": "SEA",
+        "destination": "Dubai",
+        "destinationcode": "DXB",
+        "number_of_bookings": 950
+      }
+    ]
+  },
+  {
+    "last_month": [
+      {
+        "origin": "Boston",
+        "origincode": "BOS",
+        "destination": "Amsterdam",
+        "destinationcode": "AMS",
+        "number_of_bookings": 1150
+      },
+      {
+        "origin": "Houston",
+        "origincode": "IAH",
+        "destination": "Mexico City",
+        "destinationcode": "MEX",
+        "number_of_bookings": 980
+      },
+      {
+        "origin": "Atlanta",
+        "origincode": "ATL",
+        "destination": "Buenos Aires",
+        "destinationcode": "EZE",
+        "number_of_bookings": 890
+      }
+    ]
+  },
+  {
+    "yearly": [
+      {
+        "origin": "Washington D.C.",
+        "origincode": "IAD",
+        "destination": "Rome",
+        "destinationcode": "FCO",
+        "number_of_bookings": 16000
+      },
+      {
+        "origin": "Dallas",
+        "origincode": "DFW",
+        "destination": "Beijing",
+        "destinationcode": "PEK",
+        "number_of_bookings": 13000
+      },
+      {
+        "origin": "Denver",
+        "origincode": "DEN",
+        "destination": "Toronto",
+        "destinationcode": "YYZ",
+        "number_of_bookings": 12000
+      }
+    ]
+  }
+]

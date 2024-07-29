@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "MdOutlineWifiFind",
+    "alert_name": "Connection Lost",
+    "alert_time": "1hr ago",
+    "flight_number": "AA765"
+  },
+  {
+    "alert_name": "Weather Delay",
+    "alert_time": "1hr ago",
+    "flight_number": "AA123",
+    "icon": "TiWeatherShower"
+  },
+  {
+    "alert_name": "Boarding Now",
+    "alert_time": "5min ago",
+    "flight_number": "UA789",
+    "icon": "FaPlaneUp"
+  }
+]

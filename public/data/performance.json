@@ -1,0 +1,22 @@
+[
+  {
+    "today": {
+      "fleet_occupancy": 75,
+      "total_flights_count": 150,
+      "delays": 30,
+      "cancelled": 4
+    },
+    "this_week": {
+      "fleet_occupancy": 70,
+      "total_flights_count": 900,
+      "delays": 70,
+      "cancelled": 12
+    },
+    "this_month": {
+      "fleet_occupancy": 68,
+      "total_flights_count": 4000,
+      "delays": 150,
+      "cancelled": 50
+    }
+  }
+]

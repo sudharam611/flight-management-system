@@ -1,0 +1,31 @@
+[
+  {
+    "today": {
+      "sales": [
+        { "date": "08:00 AM", "amount": 20000 },
+        { "date": "09:00 AM", "amount": 30000 },
+        { "date": "10:00 AM", "amount": 50000 },
+        { "date": "11:00 AM", "amount": 40000 },
+        { "date": "12:00 PM", "amount": 70000 }
+      ]
+    },
+    "this_week": {
+      "sales": [
+        { "date": "Jul 22", "amount": 20000 },
+        { "date": "Jul 23", "amount": 8000 },
+        { "date": "Jul 24", "amount": 90000 },
+        { "date": "Jul 25", "amount": 40000 },
+        { "date": "Jul 26", "amount": 100000 }
+      ]
+    },
+    "this_month": {
+      "sales": [
+        { "date": "Jul 1", "amount": 80000 },
+        { "date": "Jul 2", "amount": 2000 },
+        { "date": "Jul 3", "amount": 60000 },
+        { "date": "Jul 4", "amount": 2000 },
+        { "date": "Jul 5", "amount": 100000 }
+      ]
+    }
+  }
+]
