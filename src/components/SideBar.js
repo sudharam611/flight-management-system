@@ -17,41 +17,41 @@ function SideBar({ showSideBar, setShowSideBar }) {
       name: "Flights",
       link: "/flights",
     },
-    {
-      icon: "IoTicketOutline",
-      name: "Booking",
-      link: "/booking",
-    },
-    {
-      icon: "IoPeopleOutline",
-      name: "Staff",
-      link: "/staff",
-    },
-    {
-      icon: "AiOutlineMessage",
-      name: "Help Desk",
-      link: "/help-desk",
-    },
-    {
-      icon: "IoSettingsOutline",
-      name: "Manage Aircrafts",
-      link: "/manage-aircrafts",
-    },
-    {
-      icon: "VscGraph",
-      name: "Reports & Analytics",
-      link: "reports-analytics",
-    },
-    {
-      icon: "HiOutlineSpeakerphone",
-      name: "Broadcast Notification",
-      link: "/broadcast-notification",
-    },
-    {
-      icon: "LuCircleDollarSign",
-      name: "Payments & Refunds",
-      link: "payments-refunds",
-    },
+    // {
+    //   icon: "IoTicketOutline",
+    //   name: "Booking",
+    //   link: "/booking",
+    // },
+    // {
+    //   icon: "IoPeopleOutline",
+    //   name: "Staff",
+    //   link: "/staff",
+    // },
+    // {
+    //   icon: "AiOutlineMessage",
+    //   name: "Help Desk",
+    //   link: "/help-desk",
+    // },
+    // {
+    //   icon: "IoSettingsOutline",
+    //   name: "Manage Aircrafts",
+    //   link: "/manage-aircrafts",
+    // },
+    // {
+    //   icon: "VscGraph",
+    //   name: "Reports & Analytics",
+    //   link: "reports-analytics",
+    // },
+    // {
+    //   icon: "HiOutlineSpeakerphone",
+    //   name: "Broadcast Notification",
+    //   link: "/broadcast-notification",
+    // },
+    // {
+    //   icon: "LuCircleDollarSign",
+    //   name: "Payments & Refunds",
+    //   link: "payments-refunds",
+    // },
   ];
   return (
     <div className="z-50">
@@ -88,12 +88,12 @@ function SideBar({ showSideBar, setShowSideBar }) {
               })}
             </nav>
 
-            <div className="mt-auto" onClick={() => setShowSideBar(false)}>
+            {/* <div className="mt-auto" onClick={() => setShowSideBar(false)}>
               <NavLink className="navItems bg-light-gray">
                 <MdHeadset />
                 Contact Support
               </NavLink>
-            </div>
+            </div> */}
           </ul>
 
           <div

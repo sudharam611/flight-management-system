@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import user from "../images/user.jpg";
-import downArrow from "../images/downIcon.png";
-import UserDetails from "./UserDetails";
 
+import UserDetails from "./UserDetails";
+import { FaChevronDown } from "react-icons/fa";
 function User() {
   const [showUser, setShowUser] = useState(false);
   return (
@@ -18,7 +18,7 @@ function User() {
         <UserDetails />
       </div>
       <div className="hidden md:block">
-        <img src={downArrow} alt="down arrow" width={16} />
+        <FaChevronDown fontSize={20} />
       </div>
       {showUser && (
         <div className="absolute top-8 right-0 rounded-sm flex md:hidden">
